@@ -1,0 +1,17 @@
+{
+  "name": "dannaz_dev",
+  "version": "1.0.0",
+  "description": "dannaz.dev website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "upstart": "npm i && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
